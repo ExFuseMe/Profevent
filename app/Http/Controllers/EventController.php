@@ -18,9 +18,8 @@ class EventController extends Controller
     {
         $this->repo = new EventRepository();
     }
-    public function index(Request $request)
+    public function index()
     {
-//        $events = $this->repo->all();
         return view('events.index');
     }
 

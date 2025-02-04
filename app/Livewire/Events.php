@@ -3,7 +3,6 @@
 namespace App\Livewire;
 
 use App\Http\Repositories\EventRepository;
-use Illuminate\Support\Collection;
 use Livewire\Component;
 
 class Events extends Component
